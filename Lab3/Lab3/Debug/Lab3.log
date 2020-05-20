@@ -1,0 +1,30 @@
+﻿Сборка начата 18.04.2020 14:37:15.
+     1>Проект "D:\Матпрога\Lab3\Lab3\Lab3.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Lab3.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt salesman.cpp
+         salesman.cpp
+     1>d:\матпрога\lab3\lab3\salesman.cpp(57): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+     1>d:\матпрога\lab3\lab3\salesman.cpp(66): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Матпрога\Lab3\Debug\Lab3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\Матпрога\Lab3\Debug\Lab3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Матпрога\Lab3\Debug\Lab3.lib" /MACHINE:X86 Debug\Combi.obj
+         Debug\salesman.obj
+         Debug\Source.obj
+         Lab3.vcxproj -> D:\Матпрога\Lab3\Debug\Lab3.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Lab3.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Lab3.tlog\Lab3.lastbuildstate".
+     1>Сборка проекта "D:\Матпрога\Lab3\Lab3\Lab3.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Матпрога\Lab3\Lab3\Lab3.vcxproj" (целевой объект Build ) (1) ->
+       (ClCompile конечный объект) -> 
+         d:\матпрога\lab3\lab3\salesman.cpp(57): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+         d:\матпрога\lab3\lab3\salesman.cpp(66): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:00.45

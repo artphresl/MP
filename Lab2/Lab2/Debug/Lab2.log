@@ -1,0 +1,27 @@
+﻿Сборка начата 07.03.2020 15:22:00.
+     1>Проект "D:\Матпрога\Lab2\Lab2\Lab2.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Lab2.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Peres.cpp Razm.cpp Soc.cpp
+         Peres.cpp
+     1>d:\матпрога\lab2\lab2\peres.cpp(57): error C3861: fact: идентификатор не найден
+         Razm.cpp
+     1>d:\матпрога\lab2\lab2\razm.cpp(54): error C3861: fact: идентификатор не найден
+         Soc.cpp
+     1>d:\матпрога\lab2\lab2\soc.cpp(53): error C3861: fact: идентификатор не найден
+         Создание кода...
+     1>Сборка проекта "D:\Матпрога\Lab2\Lab2\Lab2.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\Матпрога\Lab2\Lab2\Lab2.vcxproj" (целевой объект Build ) (1) ->
+       (ClCompile конечный объект) -> 
+         d:\матпрога\lab2\lab2\peres.cpp(57): error C3861: fact: идентификатор не найден
+         d:\матпрога\lab2\lab2\razm.cpp(54): error C3861: fact: идентификатор не найден
+         d:\матпрога\lab2\lab2\soc.cpp(53): error C3861: fact: идентификатор не найден
+
+    Предупреждений: 0
+    Ошибок: 3
+
+Прошло времени 00:00:01.11
