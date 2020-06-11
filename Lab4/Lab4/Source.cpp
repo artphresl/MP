@@ -87,6 +87,8 @@ void main()
 	t2 = clock();
 	std::cout << std::endl << "-- длина LCS: " << s << std::endl;
 	cout << "-- Продолжительность: " << (t2 - t1) << endl;
+	t1 = 0;
+	t2 = 0;
 	char z[100] = "";
 	char x[] = "HRWCYUJ",
 		y[] = "WLPCAU";
@@ -94,8 +96,7 @@ void main()
 	int l = lcsd(x, y, z);
 	t2 = clock();
 	std::cout << std::endl
-		<< "-- наибольшая общая подпоследовательость - LCS(динамическое"
-		<< "программирование)" << std::endl;
+		<< "-- наибольшая общая подпоследовательость - LCS(динамическое программирование)" << std::endl;
 	std::cout << std::endl << "последовательость X: " << x;
 	std::cout << std::endl << "последовательость Y: " << y;
 	std::cout << std::endl << "                LCS: " << z;

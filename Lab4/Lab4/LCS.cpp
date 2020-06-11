@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <iostream>
 #include <cstring>
 #include "LCS.h"
 //---рекурсивный
@@ -45,6 +46,7 @@ int lcsd(const char x[], const char y[], char z[])
 	Dart* B = new Dart[(lenx + 1)*(leny + 1)];
 	memset(C, 0, sizeof(int)*(lenx + 1)*(leny + 1));
 	for (int i = 1; i <= lenx; i++)
+	{
 		for (int j = 1; j <= leny; j++)
 			if (LCS_X(i) == LCS_Y(j))
 			{
@@ -61,7 +63,16 @@ int lcsd(const char x[], const char y[], char z[])
 				LCS_C(i, j) = LCS_C(i, j - 1);
 				LCS_B(i, j) = LEFT;
 			}
+	}
 	getLCScontent(lenx, leny, x, B, LCS_C(lenx, leny), lenx, leny, z);
+	for (int i = 0; i <= lenx; i++)
+	{
+		for (int j = 0; j <= leny; j++)
+		{
+			if (j != leny) std::cout << LCS_B(i, j) << " ";
+			else std::cout << LCS_B(i, j) << std::endl;
+		}
+	}
 	return LCS_C(lenx, leny);
 }
 #undef LCS_Z

@@ -1,0 +1,25 @@
+﻿Сборка начата 11.06.2020 3:35:34.
+     1>Проект "D:\Матпрога\Lab5\lab5\lab5\lab5.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\lab5.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\lab5.pch" /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt lab5.cpp
+         lab5.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Матпрога\Lab5\lab5\Debug\lab5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\Матпрога\Lab5\lab5\Debug\lab5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Матпрога\Lab5\lab5\Debug\lab5.lib" /MACHINE:X86 Debug\BFS.obj
+         Debug\DFS.obj
+         Debug\Graph.obj
+         Debug\lab5.obj
+         Debug\stdafx.obj
+         lab5.vcxproj -> D:\Матпрога\Lab5\lab5\Debug\lab5.exe
+       FinalizeBuildStatus:
+         Файл "Debug\lab5.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\lab5.tlog\lab5.lastbuildstate".
+     1>Сборка проекта "D:\Матпрога\Lab5\lab5\lab5\lab5.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.29
